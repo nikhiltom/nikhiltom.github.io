@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DailyMural</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+    <style>
+        body{
+            margin:0;
+            background: url("genesis.jpg"); 
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        
+        .container{
+            margin-top: 23%; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1{
+            color:white;
+            text-transform: uppercase;
+        }
+      
+        
+        input{
+            padding: 5px;
+            margin-top: 7%;
+            width : 100px;
+            border: 2px solid black; 
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(204, 115, 115);
+            transition: all 1s;
+        }
+        input:onclick{
+            transform: scale(.9); 
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Write your Murals daily!</h1>
+           
+        <input type="button" value="Register" name="register">
+    </div>
+</body>
+</html>
